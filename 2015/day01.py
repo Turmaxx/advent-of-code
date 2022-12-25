@@ -1,14 +1,11 @@
 """
---- Advent of Code Day 1: Not Quite Lisp ---
+--- Not Quite Lisp ---
 https://adventofcode.com/2015/day/1
 """
 
-from aocd import get_data
+from aocd import data
 
 class Solution:
-    def read(self):
-        return get_data(day=1, year=2015)
-
     def direction(self, part_two=False) -> None:
 
         order = { 
@@ -17,7 +14,6 @@ class Solution:
         }
 
         basement, floor = None, 0
-        data = self.read()
 
         for i, c in enumerate(data, 1):
             floor += order[c]

@@ -2,14 +2,11 @@
 --- Day 2: I Was Told There Would Be No Math ---
 https://adventofcode.com/2015/day/2
 """
-from aocd import get_data
+
+from aocd import data
 
 class Solution:
-    
-    def read(self):
-        return get_data(day=2, year=2015)
-
-    def calculate(self, part_two=False):
+    def calculate(self, part_two=False) -> None:
 
         def box_area(w, h, l):
             return 2 * l * w + 2 * w * h + 2 * h * l
@@ -23,9 +20,8 @@ class Solution:
         def box_volume(w, h, l):
             return w * h * l
 
-        area, length = 0, 0
+        area = length = 0
 
-        data = self.read()
         for line in data.splitlines():
             w, h, l = [int(d) for d in line.split("x")]
             area += box_area(w, h, l) + smallest_side(w, h, l)
