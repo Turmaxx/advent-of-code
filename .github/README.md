@@ -1,7 +1,6 @@
 # 🎄 Advent of Code 🎄 
 
-My solutions to advent of code challenges, written in Python 🐍
-That is, they're something like my own initial solutions, cleaned up, and when necessary infused with the genius of the people on the Reddit Solution Megathreads.
+My solutions to Advent of Code challenges, written in Python 🐍 
 
 ## 🖳  How to run:
 
@@ -11,7 +10,7 @@ To get started run the script found in [scripts/require.sh][require] to install 
 ./scripts/require.sh
 ```
 
-## ⭐Statistics
+## ⭐All-Time Statistics
 
 |  Year  |  Stars Gained  |
 | ------ | -------------- |
@@ -24,10 +23,6 @@ To get started run the script found in [scripts/require.sh][require] to install 
 | **2021** | ⭐ 0  |
 | **2022** | ⭐ 10 |
 | **Total** | ⭐ 14 |
-
-## 👤 Authored by 
-
-Brook Seyoum
 
 <!-- LINKS -->
 [require]: https://github.com/Turmaxx/advent-of-code/blob/main/scripts/require.sh
