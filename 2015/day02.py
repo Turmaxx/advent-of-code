@@ -2,7 +2,6 @@
 --- Day 2: I Was Told There Would Be No Math ---
 https://adventofcode.com/2015/day/2
 """
-
 from aocd import data
 
 class Solution:
@@ -31,7 +30,6 @@ class Solution:
             print(f"Part Two: {length}")
         else:
             print(f"Part One: {area}")
-
 
 if __name__ == "__main__":
     solve = Solution()
