@@ -14,13 +14,14 @@ class Solution:
         }
 
     def spherical(self, data, part_two=False) -> None:
-        z = 0
         if part_two:
+            z = 0
             seen = {z}
             for c in data[0::2]:  # santa
                 z += self.step[c]
                 seen |= {z}
 
+            z = 0
             for c in data[1::2]:  # robo-santa
                 z += self.step[c]
                 seen |= {z}
@@ -28,6 +29,7 @@ class Solution:
             print("Part Two:", len(seen))
 
         else:
+            z = 0
             seen = {z}
             for c in data:
                 z += self.step[c]
