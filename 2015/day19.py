@@ -39,5 +39,7 @@ while element != "e":
     replacements += 1
 
 if __name__ == "__main__":
-    print(f"Part A: {len(seen)}")
-    print(f"Part B: {replacements}")
+    # Answer to Part One
+    print(f"Part One: {len(seen)}")
+    # Answer to Part Two
+    print(f"Part Two: {replacements}")
